@@ -1,0 +1,400 @@
+
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <meta name="theme-color" content="#141511">
+  <meta
+    name="description"
+    content="Entra en contacto con JHON a través de WhatsApp para solicitar información sobre moda masculina."
+  >
+
+  <title>Contacto | JHON — Men's Wear</title>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+  <link
+    href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Manrope:wght@400;500;600;700;800&display=swap"
+    rel="stylesheet"
+  >
+
+  <link rel="stylesheet" href="css/styles.css">
+  <script src="js/main.js" defer></script>
+</head>
+
+<body>
+
+  <a class="skip-link" href="#contenido">
+    Ir al contenido
+  </a>
+
+  <div class="announcement">
+    ESTILO QUE HABLA POR TI
+    <span>·</span>
+    JHON MEN'S WEAR
+  </div>
+
+  <!-- HEADER -->
+  <header class="site-header">
+    <div class="container nav-wrap">
+
+      <a
+        href="index.html"
+        class="brand"
+        aria-label="JHON, ir al inicio"
+      >
+        JHON<span class="brand-dot">.</span>
+      </a>
+
+      <nav class="desktop-nav" aria-label="Navegación principal">
+        <a href="index.html" class="nav-link">Inicio</a>
+        <a href="coleccion.html" class="nav-link">Colección</a>
+        <a href="estilo.html" class="nav-link">Guía de estilo</a>
+        <a href="nosotros.html" class="nav-link">Nosotros</a>
+        <a href="valores.html" class="nav-link">Valores</a>
+        <a href="experiencia.html" class="nav-link">Experiencia</a>
+        <a href="ubicacion.html" class="nav-link">Ubicación</a>
+        <a
+          href="contacto.html"
+          class="nav-link active"
+          aria-current="page"
+        >
+          Contacto
+        </a>
+      </nav>
+
+      <a class="nav-cta" href="contacto.html">
+        Hablemos <span aria-hidden="true">↗</span>
+      </a>
+
+      <button
+        class="menu-toggle"
+        type="button"
+        aria-label="Abrir menú"
+        aria-expanded="false"
+        aria-controls="mobile-menu"
+      >
+        <span></span>
+        <span></span>
+        <span></span>
+      </button>
+
+    </div>
+
+    <!-- MENÚ MÓVIL -->
+    <nav
+      class="mobile-nav"
+      id="mobile-menu"
+      aria-label="Navegación móvil"
+      inert
+    >
+      <a href="index.html" class="nav-link">Inicio</a>
+      <a href="coleccion.html" class="nav-link">Colección</a>
+      <a href="estilo.html" class="nav-link">Guía de estilo</a>
+      <a href="nosotros.html" class="nav-link">Nosotros</a>
+      <a href="valores.html" class="nav-link">Valores</a>
+      <a href="experiencia.html" class="nav-link">Experiencia</a>
+      <a href="ubicacion.html" class="nav-link">Ubicación</a>
+      <a
+        href="contacto.html"
+        class="nav-link active"
+        aria-current="page"
+      >
+        Contacto
+      </a>
+    </nav>
+  </header>
+
+  <!-- CONTENIDO -->
+  <main id="contenido">
+
+    <!-- INTRODUCCIÓN -->
+    <section class="page-intro container reveal">
+      <span class="eyebrow">07 / CONTACTO</span>
+
+      <h1>
+        Hablemos de<br>
+        <em>tu estilo.</em>
+      </h1>
+
+      <p>
+        ¿Una pregunta sobre nuestra propuesta?
+        Escríbenos directamente por WhatsApp.
+        Nos encanta conectar con personas
+        que valoran el buen estilo.
+      </p>
+    </section>
+
+    <!-- FORMULARIO DE CONTACTO -->
+    <section class="container section section-tight contact-layout">
+
+      <div class="contact-side reveal">
+
+        <span class="eyebrow">CONECTA CON JHON</span>
+
+        <h2>
+          Una conversación puede ser
+          el inicio de algo grande.
+        </h2>
+
+        <p>
+          Completa el formulario y conecta con nosotros
+          directamente por WhatsApp. Queremos conocer
+          tus ideas, resolver tus dudas y ayudarte
+          a encontrar tu propio estilo.
+        </p>
+
+        <div class="contact-note">
+          <span>↗</span>
+
+          <div>
+            <strong>
+              Estamos aquí para escucharte.
+            </strong>
+
+            <p>
+              Cuéntanos qué buscas, qué estilo te gusta
+              o qué quieres saber de la marca.
+            </p>
+          </div>
+        </div>
+
+      </div>
+
+      <!-- FORMULARIO -->
+      <form class="contact-form reveal" id="contact-form">
+
+        <div class="form-grid">
+
+          <label>
+            Nombre completo
+
+            <input
+              name="nombre"
+              type="text"
+              required
+              minlength="2"
+              maxlength="80"
+              autocomplete="name"
+              placeholder="Tu nombre"
+            >
+          </label>
+
+          <label>
+            Correo electrónico
+
+            <input
+              name="email"
+              type="email"
+              required
+              maxlength="150"
+              autocomplete="email"
+              placeholder="tu@correo.com"
+            >
+          </label>
+
+        </div>
+
+        <label>
+          Asunto
+
+          <select name="asunto" required>
+            <option value="" selected disabled>
+              Selecciona una opción
+            </option>
+
+            <option value="Consulta de colección">
+              Consulta de colección
+            </option>
+
+            <option value="Información de la marca">
+              Información de la marca
+            </option>
+
+            <option value="Colaboraciones">
+              Colaboraciones
+            </option>
+
+            <option value="Otra consulta">
+              Otra consulta
+            </option>
+          </select>
+        </label>
+
+        <label>
+          Tu mensaje
+
+          <textarea
+            name="mensaje"
+            required
+            minlength="10"
+            maxlength="2000"
+            rows="6"
+            placeholder="Cuéntanos en qué podemos ayudarte..."
+          ></textarea>
+        </label>
+
+        <div class="form-bottom">
+
+          <p>
+            Al continuar, se abrirá WhatsApp con tu mensaje
+            preparado para que puedas revisarlo y enviarlo.
+          </p>
+
+          <button class="btn btn-accent" type="submit">
+            Enviar por WhatsApp ↗
+          </button>
+
+        </div>
+
+        <p
+          id="form-status"
+          class="form-status"
+          role="status"
+          aria-live="polite"
+        ></p>
+
+      </form>
+
+    </section>
+
+    <!-- PREGUNTAS FRECUENTES -->
+    <section class="soft-section">
+
+      <div class="container section faq-layout">
+
+        <div class="reveal">
+
+          <span class="eyebrow">
+            PREGUNTAS FRECUENTES
+          </span>
+
+          <h2>
+            Lo que debes saber.
+          </h2>
+
+        </div>
+
+        <div class="faq-list">
+
+          <details class="reveal">
+            <summary>
+              ¿Puedo comprar directamente desde este sitio?
+            </summary>
+
+            <p>
+              Por el momento, este sitio es informativo.
+              Puedes explorar los estilos & escribirnos por
+              WhatsApp para consultar disponibilidad.
+            </p>
+          </details>
+
+          <details class="reveal">
+            <summary>
+              ¿Los productos mostrados están disponibles?
+            </summary>
+
+            <p>
+              Las imágenes son referencias de estilo.
+              La disponibilidad de prendas, tallas & precios
+              debe confirmarse directamente con la marca.
+            </p>
+          </details>
+
+          <details class="reveal">
+            <summary>
+              ¿Dónde está ubicada la tienda?
+            </summary>
+
+            <p>
+              La ubicación física & los horarios están por
+              confirmar. Puedes revisar la sección Ubicación
+              o consultarnos directamente por WhatsApp.
+            </p>
+          </details>
+
+        </div>
+
+      </div>
+
+    </section>
+
+  </main>
+
+  <!-- FOOTER -->
+  <footer class="footer">
+
+    <div class="container footer-grid">
+
+      <div>
+        <a href="index.html" class="brand footer-brand">
+          JHON<span class="brand-dot">.</span>
+        </a>
+
+        <p>
+          Moda masculina con actitud,
+          intención & personalidad.
+        </p>
+      </div>
+
+      <div>
+        <h3>Explora</h3>
+
+        <a href="coleccion.html">Colección</a>
+        <a href="estilo.html">Guía de estilo</a>
+        <a href="nosotros.html">Nuestra historia</a>
+        <a href="valores.html">Nuestros valores</a>
+      </div>
+
+      <div>
+        <h3>Conecta</h3>
+
+        <a href="experiencia.html">La experiencia JHON</a>
+        <a href="ubicacion.html">Dónde encontrarnos</a>
+        <a href="contacto.html">Contacto</a>
+      </div>
+
+      <div>
+        <h3>Esencia</h3>
+
+        <p>
+          No se trata de vestir igual.
+          Se trata de vestir como tú.
+        </p>
+
+        <span class="footer-slogan">
+          CONECTA CON NOSOTROS.
+        </span>
+      </div>
+
+    </div>
+
+    <div class="container footer-bottom">
+
+      <span>
+        © <span data-year>2026</span> JHON.
+        Cuarto Semestre, Admin. de Empresas.
+      </span>
+
+      <span>
+        Diseñado con amor_ Juan Diego Lejá Ajcalón
+      </span>
+
+    </div>
+
+  </footer>
+
+  <!-- BOTÓN VOLVER ARRIBA -->
+  <button
+    class="back-top"
+    aria-label="Volver arriba"
+    title="Volver arriba"
+  >
+    ↑
+  </button>
+
+</body>
+</html>

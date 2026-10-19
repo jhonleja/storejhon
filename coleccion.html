@@ -1,0 +1,794 @@
+
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+  <!-- ========================================
+       CONFIGURACIÓN GENERAL
+  ========================================= -->
+
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <meta name="theme-color" content="#141511">
+
+  <meta
+    name="description"
+    content="Explora las categorías de moda masculina JHON."
+  >
+
+  <title>Colección | JHON — Men's Wear</title>
+
+
+  <!-- ========================================
+       TIPOGRAFÍAS
+  ========================================= -->
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+
+  <link
+    rel="preconnect"
+    href="https://fonts.gstatic.com"
+    crossorigin
+  >
+
+  <link
+    href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Manrope:wght@400;500;600;700;800&display=swap"
+    rel="stylesheet"
+  >
+
+
+  <!-- ========================================
+       ESTILOS CSS
+  ========================================= -->
+
+  <link rel="stylesheet" href="css/styles.css">
+
+
+  <!-- ========================================
+       JAVASCRIPT
+  ========================================= -->
+
+  <script src="js/main.js" defer></script>
+
+</head>
+
+<body>
+
+  <!-- ========================================
+       ACCESIBILIDAD
+  ========================================= -->
+
+  <a class="skip-link" href="#contenido">
+    Ir al contenido
+  </a>
+
+
+  <!-- ========================================
+       BARRA DE ANUNCIO
+  ========================================= -->
+
+  <div class="announcement">
+    ESTILO QUE HABLA POR TI
+    <span>·</span>
+    JHON MEN'S WEAR
+  </div>
+
+
+  <!-- ========================================
+       HEADER / NAVEGACIÓN PRINCIPAL
+  ========================================= -->
+
+  <header class="site-header">
+
+    <div class="container nav-wrap">
+
+      <!-- LOGOTIPO -->
+
+      <a
+        href="index.html"
+        class="brand"
+        aria-label="JHON, ir al inicio"
+      >
+        JHON<span class="brand-dot">.</span>
+      </a>
+
+
+      <!-- MENÚ DE ESCRITORIO -->
+
+      <nav
+        class="desktop-nav"
+        aria-label="Navegación principal"
+      >
+
+        <a href="index.html" class="nav-link">
+          Inicio
+        </a>
+
+        <a
+          href="coleccion.html"
+          class="nav-link active"
+          aria-current="page"
+        >
+          Colección
+        </a>
+
+        <a href="estilo.html" class="nav-link">
+          Guía de estilo
+        </a>
+
+        <a href="nosotros.html" class="nav-link">
+          Nosotros
+        </a>
+
+        <a href="valores.html" class="nav-link">
+          Valores
+        </a>
+
+        <a href="experiencia.html" class="nav-link">
+          Experiencia
+        </a>
+
+        <a href="ubicacion.html" class="nav-link">
+          Ubicación
+        </a>
+
+        <a href="contacto.html" class="nav-link">
+          Contacto
+        </a>
+
+      </nav>
+
+
+      <!-- BOTÓN DE CONTACTO -->
+
+      <a class="nav-cta" href="contacto.html">
+        Hablemos
+        <span aria-hidden="true">↗</span>
+      </a>
+
+
+      <!-- BOTÓN MENÚ MÓVIL -->
+
+      <button
+        class="menu-toggle"
+        type="button"
+        aria-label="Abrir menú"
+        aria-expanded="false"
+        aria-controls="mobile-menu"
+      >
+        <span></span>
+        <span></span>
+        <span></span>
+      </button>
+
+    </div>
+
+
+    <!-- ======================================
+         NAVEGACIÓN MÓVIL
+    ======================================= -->
+
+    <nav
+      class="mobile-nav"
+      id="mobile-menu"
+      aria-label="Navegación móvil"
+      inert
+    >
+
+      <a href="index.html" class="nav-link">
+        Inicio
+      </a>
+
+      <a
+        href="coleccion.html"
+        class="nav-link active"
+        aria-current="page"
+      >
+        Colección
+      </a>
+
+      <a href="estilo.html" class="nav-link">
+        Guía de estilo
+      </a>
+
+      <a href="nosotros.html" class="nav-link">
+        Nosotros
+      </a>
+
+      <a href="valores.html" class="nav-link">
+        Valores
+      </a>
+
+      <a href="experiencia.html" class="nav-link">
+        Experiencia
+      </a>
+
+      <a href="ubicacion.html" class="nav-link">
+        Ubicación
+      </a>
+
+      <a href="contacto.html" class="nav-link">
+        Contacto
+      </a>
+
+    </nav>
+
+  </header>
+
+
+  <!-- ========================================
+       CONTENIDO PRINCIPAL
+  ========================================= -->
+
+  <main id="contenido">
+
+
+    <!-- ======================================
+         SECCIÓN 1: INTRODUCCIÓN
+    ======================================= -->
+
+    <section class="page-intro container reveal">
+
+      <span class="eyebrow">
+        01 / COLECCIÓN
+      </span>
+
+      <h1>
+        Un guardarropa.<br>
+        <em>Infinitas formas.</em>
+      </h1>
+
+      <p>
+        No es una tienda en línea: es una mirada a los
+        estilos, prendas & conceptos que inspiran
+        la selección JHON.
+      </p>
+
+    </section>
+
+
+    <!-- ======================================
+         SECCIÓN 2: COLECCIÓN DE ESTILOS
+    ======================================= -->
+
+    <section class="container section section-tight">
+
+
+      <!-- ====================================
+           FILTROS DE CATEGORÍAS
+      ===================================== -->
+
+      <div
+        class="filter-row"
+        role="group"
+        aria-label="Filtrar estilos"
+      >
+
+        <!-- TODOS -->
+
+        <button
+          class="chip selected"
+          type="button"
+          data-filter="all"
+          aria-pressed="true"
+        >
+          Todos
+        </button>
+
+
+        <!-- ESENCIALES -->
+
+        <button
+          class="chip"
+          type="button"
+          data-filter="esenciales"
+          aria-pressed="false"
+        >
+          Esenciales
+        </button>
+
+
+        <!-- CLÁSICOS -->
+
+        <button
+          class="chip"
+          type="button"
+          data-filter="clasicos"
+          aria-pressed="false"
+        >
+          Clásicos
+        </button>
+
+
+        <!-- CASUAL -->
+
+        <button
+          class="chip"
+          type="button"
+          data-filter="casual"
+          aria-pressed="false"
+        >
+          Casual
+        </button>
+
+
+        <!-- URBANO -->
+
+        <button
+          class="chip"
+          type="button"
+          data-filter="urbano"
+          aria-pressed="false"
+        >
+          Urbano
+        </button>
+
+      </div>
+
+
+      <!-- ====================================
+           GRID DE PRODUCTOS / ESTILOS
+      ===================================== -->
+
+      <div class="product-grid">
+
+
+        <!-- ==================================
+             TARJETA 1: BÁSICOS
+             CATEGORÍA: ESENCIALES
+        =================================== -->
+
+        <article
+          class="product-card reveal"
+          data-category="esenciales"
+        >
+
+          <!-- IMAGEN -->
+
+          <div class="product-photo">
+
+            <img
+              src="https://images.unsplash.com/photo-1598032895397-b9472444bf93?auto=format&fit=crop&w=1000&q=85"
+              alt="Básicos de ropa masculina"
+              loading="lazy"
+            >
+
+          </div>
+
+
+          <!-- ETIQUETA SUPERIOR -->
+
+          <div class="product-top">
+
+            <span>THE ESSENTIALS</span>
+            <span>↗</span>
+
+          </div>
+
+
+          <!-- INFORMACIÓN -->
+
+          <h3>Básicos</h3>
+
+          <p>
+            Piezas limpias que hacen fácil
+            cualquier combinación.
+          </p>
+
+        </article>
+
+
+        <!-- ==================================
+             TARJETA 2: CLÁSICOS
+             CATEGORÍA: CLASICOS
+        =================================== -->
+
+        <article
+          class="product-card reveal"
+          data-category="clasicos"
+        >
+
+          <!-- IMAGEN -->
+
+          <div class="product-photo">
+
+            <img
+              src="https://images.unsplash.com/photo-1617137968427-85924c800a22?auto=format&fit=crop&w=1100&q=85"
+              alt="Clásicos de ropa masculina"
+              loading="lazy"
+            >
+
+          </div>
+
+
+          <!-- ETIQUETA SUPERIOR -->
+
+          <div class="product-top">
+
+            <span>MODERN CLASSIC</span>
+            <span>↗</span>
+
+          </div>
+
+
+          <!-- INFORMACIÓN -->
+
+          <h3>Clásicos</h3>
+
+          <p>
+            Prendas sobrias para elevar tu presencia.
+          </p>
+
+        </article>
+
+
+        <!-- ==================================
+             TARJETA 3: CASUAL
+             CATEGORÍA: CASUAL
+        =================================== -->
+
+        <article
+          class="product-card reveal"
+          data-category="casual"
+        >
+
+          <!-- IMAGEN -->
+
+          <div class="product-photo">
+
+            <img
+              src="https://images.unsplash.com/photo-1516257984-b1b4d707412e?auto=format&fit=crop&w=1000&q=85"
+              alt="Casual de ropa masculina"
+              loading="lazy"
+            >
+
+          </div>
+
+
+          <!-- ETIQUETA SUPERIOR -->
+
+          <div class="product-top">
+
+            <span>EVERYDAY FIT</span>
+            <span>↗</span>
+
+          </div>
+
+
+          <!-- INFORMACIÓN -->
+
+          <h3>Casual</h3>
+
+          <p>
+            Comodidad con intención
+            para todos los días.
+          </p>
+
+        </article>
+
+
+        <!-- ==================================
+             TARJETA 4: URBANO
+             CATEGORÍA: URBANO
+        =================================== -->
+
+        <article
+          class="product-card reveal"
+          data-category="urbano"
+        >
+
+          <!-- IMAGEN -->
+
+          <div class="product-photo">
+
+            <img
+              src="https://images.unsplash.com/photo-1618354691373-d851c5c3a990?auto=format&fit=crop&w=1100&q=85"
+              alt="Urbano de ropa masculina"
+              loading="lazy"
+            >
+
+          </div>
+
+
+          <!-- ETIQUETA SUPERIOR -->
+
+          <div class="product-top">
+
+            <span>STREET EDIT</span>
+            <span>↗</span>
+
+          </div>
+
+
+          <!-- INFORMACIÓN -->
+
+          <h3>Urbano</h3>
+
+          <p>
+            Actitud contemporánea
+            y estilo sin esfuerzo.
+          </p>
+
+        </article>
+
+
+        <!-- ==================================
+             TARJETA 5: NEUTROS
+             CATEGORÍA: ESENCIALES
+        =================================== -->
+
+        <article
+          class="product-card reveal"
+          data-category="esenciales"
+        >
+
+          <!-- IMAGEN -->
+
+          <div class="product-photo">
+
+            <img
+              src="https://images.unsplash.com/photo-1489987707025-afc232f7ea0f?auto=format&fit=crop&w=1100&q=85"
+              alt="Neutros de ropa masculina"
+              loading="lazy"
+            >
+
+          </div>
+
+
+          <!-- ETIQUETA SUPERIOR -->
+
+          <div class="product-top">
+
+            <span>NEUTRAL CODE</span>
+            <span>↗</span>
+
+          </div>
+
+
+          <!-- INFORMACIÓN -->
+
+          <h3>Neutros</h3>
+
+          <p>
+            Una paleta versátil para
+            múltiples ocasiones.
+          </p>
+
+        </article>
+
+
+        <!-- ==================================
+             TARJETA 6: DETALLES
+             CATEGORÍA: CLASICOS
+        =================================== -->
+
+        <article
+          class="product-card reveal"
+          data-category="clasicos"
+        >
+
+          <!-- IMAGEN -->
+
+          <div class="product-photo">
+
+            <img
+              src="https://images.unsplash.com/photo-1591047139829-d91aecb6caea?auto=format&fit=crop&w=1100&q=85"
+              alt="Detalles de ropa masculina"
+              loading="lazy"
+            >
+
+          </div>
+
+
+          <!-- ETIQUETA SUPERIOR -->
+
+          <div class="product-top">
+
+            <span>DETAIL MATTERS</span>
+            <span>↗</span>
+
+          </div>
+
+
+          <!-- INFORMACIÓN -->
+
+          <h3>Detalles</h3>
+
+          <p>
+            Texturas, cortes & acabados
+            que hacen la diferencia.
+          </p>
+
+        </article>
+
+      </div>
+
+
+      <!-- ====================================
+           NOTA INFORMATIVA
+      ===================================== -->
+
+      <p class="collection-note">
+        * Imágenes de referencia editorial.
+        Disponibilidad, marcas & precios se consultan
+        directamente con JHON.
+      </p>
+
+    </section>
+
+
+    <!-- ======================================
+         SECCIÓN 3: LLAMADO A LA ACCIÓN
+    ======================================= -->
+
+    <section class="cta-section">
+
+      <div class="container cta-inner reveal">
+
+
+        <!-- CONTENIDO -->
+
+        <div>
+
+          <span class="eyebrow">
+            PRÓXIMO CAPÍTULO
+          </span>
+
+          <h2>
+            Elige tu próxima combinación.
+          </h2>
+
+          <p>
+            Escríbenos para consultar
+            los estilos disponibles.
+          </p>
+
+        </div>
+
+
+        <!-- BOTÓN DE CONTACTO -->
+
+        <a
+          class="btn btn-light"
+          href="contacto.html"
+        >
+          Conversemos
+          <span>↗</span>
+        </a>
+
+      </div>
+
+    </section>
+
+  </main>
+
+
+  <!-- ========================================
+       FOOTER / PIE DE PÁGINA
+  ========================================= -->
+
+  <footer class="footer">
+
+    <div class="container footer-grid">
+
+
+      <!-- COLUMNA 1: MARCA -->
+
+      <div>
+
+        <a
+          href="index.html"
+          class="brand footer-brand"
+        >
+          JHON<span class="brand-dot">.</span>
+        </a>
+
+        <p>
+          Moda masculina con actitud,
+          intención & personalidad.
+        </p>
+
+      </div>
+
+
+      <!-- COLUMNA 2: EXPLORA -->
+
+      <div>
+
+        <h3>Explora</h3>
+
+        <a href="coleccion.html">
+          Colección
+        </a>
+
+        <a href="estilo.html">
+          Guía de estilo
+        </a>
+
+        <a href="nosotros.html">
+          Nuestra historia
+        </a>
+
+        <a href="valores.html">
+          Nuestros valores
+        </a>
+
+      </div>
+
+
+      <!-- COLUMNA 3: CONECTA -->
+
+      <div>
+
+        <h3>Conecta</h3>
+
+        <a href="experiencia.html">
+          La experiencia JHON
+        </a>
+
+        <a href="ubicacion.html">
+          Dónde encontrarnos
+        </a>
+
+        <a href="contacto.html">
+          Contacto
+        </a>
+
+      </div>
+
+
+      <!-- COLUMNA 4: ESENCIA -->
+
+      <div>
+
+        <h3>Esencia</h3>
+
+        <p>
+          No se trata de vestir igual.
+          Se trata de vestir como tú.
+        </p>
+
+        <span class="footer-slogan">
+          CONECTA CON NOSOTROS.
+        </span>
+
+      </div>
+
+    </div>
+
+
+    <!-- ======================================
+         DERECHOS DE AUTOR
+    ======================================= -->
+
+    <div class="container footer-bottom">
+
+      <span>
+        © <span data-year>2026</span> JHON.
+        Cuarto Semestre, Admin. de Empresas.
+      </span>
+
+      <span>
+        Diseñado con amor_ Juan Diego Lejá Ajcalón
+      </span>
+
+    </div>
+
+  </footer>
+
+
+  <!-- ========================================
+       BOTÓN FLOTANTE: VOLVER ARRIBA
+  ========================================= -->
+
+  <button
+    class="back-top"
+    aria-label="Volver arriba"
+    title="Volver arriba"
+  >
+    ↑
+  </button>
+
+</body>
+</html>
